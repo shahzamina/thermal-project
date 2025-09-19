@@ -1,0 +1,53 @@
+
+
+.my-btn {
+  font-family: sans-serif;   
+    font-size: 18px;
+  color: white;            
+  margin-left: 1rem;        
+}
+
+.f-wid{
+    width: 130%;
+    height: 100px;
+
+  }
+@media (min-width:768px) {
+  .f-wid{
+    width: 40%;
+   
+  }
+}
+.p-wid{
+    margin-top: 20%;
+
+  }
+@media (min-width:768px) {
+  .p-wid{
+  margin-top: 1%;
+   
+  }
+}
+.c-wid{
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 7%;
+  }
+@media (min-width:768px) {
+  .c-wid{
+ width: 50%;
+   margin-top: 7%;
+   margin-left: 15%;
+  }
+}
+.con-mt{
+  margin-top: 1%;
+  font-size: 30px;
+  }
+@media (min-width:768px) {
+  .con-mt{
+margin-top: 7%;
+ font-size: 40px;
+  }
+}
+
