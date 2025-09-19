@@ -1,7 +1,7 @@
 .oth-ser{
     position: relative;
  
-    background-image: url('./images/sky5.jpg');
+    background-image: url('/images/sky5.jpg');
      background-repeat: no-repeat;
      background-size: cover;   
      width: 100vw;
