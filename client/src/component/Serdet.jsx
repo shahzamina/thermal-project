@@ -9,7 +9,7 @@ const Serdet = ({images,para,head,img}) => {
             <h2 className='text-center' style={{marginTop:'10%', objectFit:'cover',fontFamily:'sans-serif', fontWeight:'bold'}}>{head}</h2>
             <p className='p-3 mt-3 ms-5' style={{fontFamily:'sans-serif',wordSpacing:'5%', lineHeight:'35px'}}>{para}</p>
         </div>
-        <div className='image-container dyn a-img'>
+        <div className='d-none d-md-flex image-container '>
                 <img  className='mt-4 mb-4  ' style={{height:'450px'}} src={img} alt={head} />
         </div>
       </div>
