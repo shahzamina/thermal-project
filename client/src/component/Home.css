@@ -1,18 +1,15 @@
 .home{
-    background-image: url('./images/g4.jpg');
+    background-image: url('/images/g4.jpg');
     background-repeat: no-repeat;
      background-size: cover;   
      width: 100vw;
-      
+           height: 65vh;
    background-position: center;
    
 
 
 }
-.home{
-   background-image: url('./images/g4.jpg');
-  height: 60vh; 
-}
+
 @media (min-width:768px) {
 .home{
  height: 88vh; 
