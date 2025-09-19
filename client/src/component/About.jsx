@@ -53,7 +53,7 @@ Widows & Door </h3>
             </p>
            
         </div>
-        <div className='image-container a-img dyn'>
+        <div className='d-none d-md-flex image-container a-img dyn'>
                 <img  className='mt-4 mb-4' style={{height:'500px'}} src='/images/g2.jpg' alt='error' />
         </div>
       </div>
