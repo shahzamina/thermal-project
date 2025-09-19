@@ -29,14 +29,14 @@ const Gallery = ({ images = [] }) => {
   };
 
   return (
-    <div className=" dyn my-5  border border-black">
+    <div className=" dyn my-5">
       <div className="g-mar d-flex flex-column flex-wrap flex-md-row gap-3 mt-3">
         {images.map((img, idx) => (
           <div className="image-container" key={idx}>
             <img
               src={img}
               alt={`gallery-${idx}`}
-              className="gal-wid"
+              className=" gal-wid"
               onClick={() => handleImageClick(idx)}
             />
           </div>
