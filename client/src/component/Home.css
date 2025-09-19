@@ -204,12 +204,15 @@ max-lines: 30%;
 }
 .cards{
   position: absolute;
+width: 80%;
   top: 53%;
+  margin-left: 10%;
 }
 
 @media (min-width:768px) {
 .cards{
   position: absolute;
   top: 58%;
+  width: 70%;
 }
 }
