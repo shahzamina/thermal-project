@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Footer.css'
 const Footer = () => {
   return (
-    <div className='dyn footer bg-black pb-1 border border-success' style={{boxShadow: '0px -2px 4px rgb(18, 150, 184)'}}>
+    <div className='dyn footer bg-black pb-1' style={{boxShadow: '0px -2px 4px rgb(18, 150, 184)'}}>
 
     <div className='d-flex flex-column flex-md-row'>
       <div className=' pb-3  ' style={{width:'30%',marginLeft:'7%', marginTop:'10%'}}>
