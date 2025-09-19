@@ -71,7 +71,7 @@ const Contact = ({img,ch}) => {
     
         <div>
           <form className="form  mt-5" onSubmit={handleSubmit(onSubmit)}>
-            <h3 className="mb-2 text-center" style={{ fontFamily: "sans-serif", fontWeight:'bolds' }}>
+            <h3 className="mb-2 c-text" style={{ fontFamily: "sans-serif", fontWeight:'bolds' }}>
              {ch}
             </h3>
 
