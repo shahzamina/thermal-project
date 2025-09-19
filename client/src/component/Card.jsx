@@ -85,11 +85,11 @@ const Card = ({ carousal = [], h }) => {
             <h3
               className="cards fs-5 style p-4 text-center"
               style={{
-                width: '70%',
+              
                 borderRadius: '45%',
                 backgroundColor: 'rgb(18, 150, 184)',
                 
-                marginLeft: '15%',
+              
               }}
             >
               {item.title}
