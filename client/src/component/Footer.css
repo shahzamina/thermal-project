@@ -51,3 +51,11 @@ margin-top: 7%;
   }
 }
 
+.c-text{
+text-align: left;
+  }
+@media (min-width:768px) {
+  .c-text{
+text-align: center;
+  }
+}
